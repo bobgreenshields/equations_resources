@@ -1,5 +1,6 @@
 from equations import gpe
 
+# help(gpe)
 gpe.hello()
 
 eqn_gpe = gpe.GPE()
