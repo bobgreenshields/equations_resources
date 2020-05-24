@@ -1,1 +1,1 @@
-__all__ = ["gpe"]
+__all__ = ["gpe", "velocity"]
