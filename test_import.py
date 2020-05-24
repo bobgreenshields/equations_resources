@@ -1,19 +1,24 @@
 from equations import gpe
 
 # help(gpe)
-gpe.hello()
+# gpe.hello()
 
-eqn_gpe = gpe.GPE()
-print(eqn_gpe.description)
+# eqn_gpe = gpe.GPE()
+# print(eqn_gpe.name)
 # print(eqn_gpe.call())
 
 print("Now using a list")
 
 equations = []
 equations.append(gpe.GPE())
-print(equations[0].description)
+# print(equations[0].name)
 
 for num, equation in enumerate(equations, start=1):
     # print(num)
-    # print(equation.description)
-    print("{}: {}".format(num, equation.description))
+    # print(equation.name)
+    print("{}: {}".format(num, equation.name))
+index = int(input("Choose equation: ")) - 1
+# print(equations[index].call())
+eqn_gpe = equations[index]
+result = eqn_gpe.call()
+print(result)
