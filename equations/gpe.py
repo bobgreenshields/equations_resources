@@ -4,9 +4,9 @@ def hello():
 
 class GPE:
     """The GPE equation"""
-    def description(self):
-        """returns a description of the equation"""
-        return "Gravitational potential energy"
+    def __init__(self):
+        """initialise"""
+        self.description = "Gravitational potential energy"
 
     def call(self):
         """asks for variables and calculates value"""
@@ -19,5 +19,5 @@ class GPE:
 if __name__ == "__main__":
     hello()
     gpe = GPE()
-    print(gpe.description())
+    print(gpe.description)
     gpe.call()
