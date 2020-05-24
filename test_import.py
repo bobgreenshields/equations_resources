@@ -5,7 +5,7 @@ gpe.hello()
 
 eqn_gpe = gpe.GPE()
 print(eqn_gpe.description)
-# eqn_gpe.call()
+# print(eqn_gpe.call())
 
 print("Now using a list")
 

@@ -10,8 +10,8 @@ class GPE:
 
     def call(self):
         """asks for variables and calculates value"""
-        h = input("Enter height: ")
-        print(h)
+        h = int(input("Enter height: "))
+        return h*h
         
 
 
@@ -20,4 +20,4 @@ if __name__ == "__main__":
     hello()
     gpe = GPE()
     print(gpe.description)
-    gpe.call()
+    print(gpe.call())
