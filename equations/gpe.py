@@ -3,6 +3,7 @@ def hello():
     print("Hello Luca")
 
 class GPE:
+    """The GPE equation"""
     def description(self):
         """returns a description of the equation"""
         return "Gravitational potential energy"
